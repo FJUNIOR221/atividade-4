@@ -3,12 +3,35 @@ body {
   margin: 0;
   padding: 0;
 }
+.titulo-marvel {
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: #e62429;
+  margin-top: 40px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
 
-.bg-hero { background-color: #292b2c; color: white; }
+.imagem-destaque {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.banner-img {
+  max-height: 800px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.bg-hero { background-color: #02111a; color: white; }
 .bg-sobre-heroi { background-color: #ffcc00; color: #2d3436; }
-.bg-galeria { background-color: #1d1f1f; color: white; }
+.bg-galeria { background-color: #0b9650; color: white; }
 .bg-historias { background-color: #e74c3c; color: white; }
-.bg-contato { background-color: #3498db; color: white; }
+.bg-contato { background-color: #0a588b; color: white; }
 
 .menu {
   background-color: #222;
